@@ -6,6 +6,11 @@ p {
   font-style:italic;
 }
 
+/* What if you played with these values?! */
 img {
   width:200px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.2);
+  padding: 2px;
+  margin: 10px;
 }
