@@ -2,7 +2,7 @@
 
 This is a place where the Netlify team posts pictures of their pets. 
 
-Want to meet our friends? Head to [petsof.netlify.com](http://petsofnetlify.com)
+Want to meet our friends? Head to [petsofnetlify.com](http://petsofnetlify.com)
 
 
 ## A little note about this website
