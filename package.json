@@ -1,0 +1,21 @@
+{
+  "name": "petsofnetlify",
+  "version": "1.0.0",
+  "description": "Project showing the pets of the Netlify team",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/netlify/petsofnetlify.git"
+  },
+  "scripts": {
+    "dist": "pug -O pets.json index.pug",
+    "dev": "pug -O pets.json index.pug --watch"
+  },
+  "bugs": {
+    "url": "https://github.com/netlify/petsofnetlify/issues"
+  },
+  "homepage": "https://github.com/netlify/petsofnetlify#readme",
+  "private": true,
+  "devDependencies": {
+    "pug-cli": "^1.0.0-alpha6"
+  }
+}

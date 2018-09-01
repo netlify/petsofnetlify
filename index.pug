@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width")
+    meta(http-equiv="X-UA-Compatible", content="ie=edge")
+    title Pets of Netlify
+    link(rel="stylesheet", href="https://fonts.googleapis.com/css?family=Roboto:400,500,700")
+    link(rel="stylesheet", href="/index.css")
+  body
+    h1 Pets of Netlify
+    p Say hello to our little friends
+    each pet in pets
+      .pet
+        img(src="images/"+pet.image, alt=pet.name)
+        h2=pet.name

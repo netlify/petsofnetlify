@@ -1,0 +1,56 @@
+{
+  "pets": [
+    {
+      "name": "Gypsy",
+      "image": "gypsy.jpg"
+    },
+    {
+      "name": "Angel",
+      "image": "angel.jpg"
+    },
+    {
+      "name": "Edgar",
+      "image": "edgar-beniah.jpg"
+    },
+    {
+      "name": "Monty and Petunia",
+      "image": "petuna-jessica.jpg"
+    },
+    {
+      "name": "Nyanyu",
+      "image": "salvador.jpg"
+    },
+    {
+      "name": "Gato",
+      "image": "gato-irene.jpg"
+    },
+    {
+      "name": "Zooey",
+      "image": "zooey-rafa.jpg"
+    },
+    {
+      "name": "Sundance",
+      "image": "sundance-ryan.jpg"
+    },
+    {
+      "name": "Hamachi",
+      "image": "hamachi-frances.jpg"
+    },
+    {
+      "name": "Roxy",
+      "image": "mike.jpg"
+    },
+    {
+      "name": "Wash and Fry",
+      "image": "wash-and-fry.jpg"
+    },
+    {
+      "name": "Macchiato",
+      "image": "macchiato.jpg"
+    },
+    {
+      "name": "Polly",
+      "image": "polly.jpg"
+    }
+  ]
+}
