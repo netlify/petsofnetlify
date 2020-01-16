@@ -20,7 +20,13 @@ img {
   margin: 10px;
 }
 
+.pets {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 .pet {
-    display:inline-block;
+    display: flex;
+    flex-direction: column-reverse;
 }
