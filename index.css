@@ -29,6 +29,8 @@ img {
 .pet {
     display: flex;
     flex-direction: column-reverse;
+    color: inherit;
+    text-decoration: none;
 }
 
 .pet:target img {
