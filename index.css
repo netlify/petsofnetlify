@@ -29,4 +29,10 @@ img {
 .pet {
     display: flex;
     flex-direction: column-reverse;
+    color: inherit;
+    text-decoration: none;
+}
+
+.pet:target img {
+    box-shadow: 1px 0px 20px 10px rgba(255,0,100,0.25);
 }
