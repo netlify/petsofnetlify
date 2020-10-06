@@ -1,0 +1,7 @@
+docker-compose-yaml: docker-compose.yml
+
+environments:
+  main:
+    routes:
+    - nginx:
+      - pets.of.amazee.com
