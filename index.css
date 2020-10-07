@@ -1,38 +1,39 @@
 body {
-  text-align:center;
-  font-family:Roboto;
-} 
+  text-align: center;
+  font-family: Roboto;
+}
 
 h1 {
-  color:#404040;
+  color: #404040;
 }
 
 h2 {
-  margin-top:0px;
+  margin-top: 0;
 }
 
 /* What if you played with these values?! */
 img {
-  height:200px;
+  height: 200px;
   border-radius: 10px;
-  box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.2);
+  box-shadow: 1px 0 10px 0 rgba(0, 0, 0, 0.2);
   padding: 2px;
-  margin: 10px;
+  margin: 10px auto;
+  object-fit: contain;
 }
 
 .pets {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .pet {
-    display: flex;
-    flex-direction: column-reverse;
-    color: inherit;
-    text-decoration: none;
+  display: flex;
+  flex-direction: column-reverse;
+  color: inherit;
+  text-decoration: none;
 }
 
 .pet:target img {
-    box-shadow: 1px 0px 20px 10px rgba(255,0,100,0.25);
+  box-shadow: 1px 0 20px 10px rgba(255, 0, 100, 0.25);
 }
