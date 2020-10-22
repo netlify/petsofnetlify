@@ -1,0 +1,24 @@
+name: Cypress end-to-end tests
+on: push
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-16.04
+    strategy:
+      matrix:
+        node: [10]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Cypress run
+        uses: cypress-io/github-action@v2
+        env:
+          CYPRESS_baseUrl: "https://deploy-preview-${{ github.event.number }}--app.netlify.app"
+          PERCY_TOKEN: ${{secrets.PERCY_TOKEN}}
+        with:
+          wait-on: "https://deploy-preview-${{ github.event.number }}--app.netlify.app"
+          wait-on-timeout: 90

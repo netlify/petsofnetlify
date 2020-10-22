@@ -1,0 +1,24 @@
+{
+  "name": "petsofnetlify",
+  "version": "1.0.0",
+  "description": "This is a place where the Netlify team posts pictures of their pets.",
+  "main": "index.js",
+  "scripts": {
+    "test": "percy exec -- node ./run-tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/charliegerard/petsofnetlify.git"
+  },
+  "author": "",
+  "devDependencies": {
+    "@percy/cypress": "^2.3.2",
+    "cypress": "^4.12.1",
+    "http-server": "^0.12.3"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/charliegerard/petsofnetlify/issues"
+  },
+  "homepage": "https://github.com/charliegerard/petsofnetlify#readme"
+}
