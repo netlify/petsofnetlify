@@ -1,0 +1,31 @@
+{
+  "name": "netlify-plugin-plugin-name",
+  "version": "0.1.0",
+  "description": "A Netlify plugin to... ",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philhawksworth/netlify-plugin-plugin-name"
+  },
+  "bugs": {
+    "url": "https://github.com/philhawksworth/netlify-plugin-plugin-name/issues"
+  },
+  "keywords": [
+    "netlify-plugin",
+    "netlify",
+    "plugin",
+    "jamstack"
+  ],
+  "dependencies": {
+    "cloudinary": "^1.22.0",
+    "dotenv": "^8.2.0",
+    "glob": "^7.1.6",
+    "node-fetch": "^2.6.0",
+    "rehype-parse": "^7.0.1",
+    "rehype-stringify": "^8.0.0",
+    "unified": "^9.1.0",
+    "unist-util-visit": "^2.0.3"
+  },
+  "author": "Phil Hawksworth",
+  "license": "ISC"
+}

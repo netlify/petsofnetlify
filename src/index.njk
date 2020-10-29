@@ -22,15 +22,13 @@
     <p>Say hello to our little friends</p>
   </header>
   <main class="pets">
-
-
+  {# Output some HTML for each pet found in _data/pets.json #}
   {% for pet in pets %}
     <a class="pet" href="#{{ pet.name | slug }}" id="{{ pet.name | slug }}">
       <h2>{{ pet.name }}</h2>
       <img src="/images/{{ pet.photo }}" alt="{{ pet.name }}">
     </a>
   {% endfor %}
-
   </main>
 </body>
 </html>

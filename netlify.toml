@@ -1,0 +1,11 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+
+# Config for the Netlify Build Plugin: netlify-plugin-add-instagram
+[[plugins]]
+  package = "./plugins/netlify-plugin-cloudinaryfy"
+
+  [plugins.inputs]
+    cloudinaryCloudName = "philhawksworth"
