@@ -4,7 +4,15 @@
   "description": "This is a place where the Netlify team posts pictures of their pets.",
   "dependencies": {
     "@11ty/eleventy": "^0.11.1",
-    "clean-css": "^4.2.3"
+    "clean-css": "^4.2.3",
+    "cloudinary": "^1.22.0",
+    "dotenv": "^8.2.0",
+    "glob": "^7.1.6",
+    "node-fetch": "^2.6.0",
+    "rehype-parse": "^7.0.1",
+    "rehype-stringify": "^8.0.0",
+    "unified": "^9.1.0",
+    "unist-util-visit": "^2.0.3"
   },
   "scripts": {
     "start": "npx eleventy --serve",
