@@ -26,7 +26,7 @@
   {% for pet in pets %}
     <a class="pet" href="#{{ pet.name | slug }}" id="{{ pet.name | slug }}">
       <h2>{{ pet.name }}</h2>
-      <img src="/cloudinaried/{{ pet.photo }}" alt="{{ pet.name }} loading="lazy">
+      <img src="/cloudinaried/{{ pet.photo }}" alt="{{ pet.name }}" loading="lazy">
     </a>
   {% endfor %}
   </main>
