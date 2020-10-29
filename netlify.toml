@@ -2,16 +2,7 @@
   command = "npm run build"
   publish = "dist"
 
-
-# Config for the Netlify Build Plugin: netlify-plugin-add-instagram
-# [[plugins]]
-#   package = "./plugins/netlify-plugin-cloudinaryfy"
-
-#   [plugins.inputs]
-#     cloudinaryCloudName = "philhawksworth"
-
-
 [[redirects]]
   from = "/cloudinaried/*"
-  to = "https://res.cloudinary.com/jlengstorf/image/fetch/q_auto,f_auto/https://petsofnetlify.com/images/:splat"
+  to = "https://res.cloudinary.com/philhawksworth/image/fetch/q_auto,f_auto,w_300/https://templatify--petsof.netlify.app/images/:splat"
   status = 200
