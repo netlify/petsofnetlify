@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Pets of Netlify</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700">
+
+  <!-- Include the CSS and minify it with a filter -->
+  {% set css %}
+    {% include "style.css" %}
+  {% endset %}
+  <style>
+    {{ css | cssmin | safe }}
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Pets of Netlify</h1>
+    <p>Say hello to our little friends</p>
+  </header>
+  <main class="pets">
+
+
+  {% for pet in pets %}
+    <a class="pet" href="#{{ pet.name | slug }}" id="{{ pet.name | slug }}">
+      <h2>{{ pet.name }}</h2>
+      <img src="/images/{{ pet.photo }}" alt="{{ pet.name }}">
+    </a>
+  {% endfor %}
+
+  </main>
+</body>
+</html>
