@@ -4,8 +4,14 @@
 
 
 # Config for the Netlify Build Plugin: netlify-plugin-add-instagram
-[[plugins]]
-  package = "./plugins/netlify-plugin-cloudinaryfy"
+# [[plugins]]
+#   package = "./plugins/netlify-plugin-cloudinaryfy"
 
-  [plugins.inputs]
-    cloudinaryCloudName = "philhawksworth"
+#   [plugins.inputs]
+#     cloudinaryCloudName = "philhawksworth"
+
+
+[[redirects]]
+  from = "/cloudinaried/*"
+  to = "https://res.cloudinary.com/jlengstorf/image/fetch/q_auto,f_auto/https://petsofnetlify.com/images/:splat"
+  status = 200
