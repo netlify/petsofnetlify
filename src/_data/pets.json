@@ -1,17 +1,5 @@
 [
   {
-    "name" : "Walter and Seuss",
-    "photo" : "walter-seuss.jpg"
-  },
-  {
-    "name" : "Maximiliano",
-    "photo" : "maximiliano.jpg"
-  },
-  {
-    "name" : "María del Carmen",
-    "photo" : "maria-del-carmen.jpg"
-  },
-  {
     "name": "Walter & Seuss",
     "photo": "walter-seuss.jpg"
   },
@@ -170,5 +158,13 @@
   {
     "name": "Rita",
     "photo": "rita.jpg"
+  },
+  {
+    "name": "Dolly",
+    "photo": "dolly.jpeg"
+  },
+  {
+    "name": "Clarence",
+    "photo": "clarence.jpg"
   }
 ]
