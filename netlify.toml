@@ -1,0 +1,8 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[[redirects]]
+  from = "/cloudinaried/*"
+  to = "https://res.cloudinary.com/philhawksworth/image/fetch/q_auto,f_auto,h_200/https://templatify--petsof.netlify.app/images/:splat"
+  status = 200
