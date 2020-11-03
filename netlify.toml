@@ -4,5 +4,10 @@
 
 [[redirects]]
   from = "/cloudinaried/*"
-  to = "https://res.cloudinary.com/philhawksworth/image/fetch/q_auto,f_auto,h_200/https://petsof.netlify.app/images/:splat"
+  to = "https://res.cloudinary.com/philhawksworth/image/fetch/q_auto,f_auto,h_200/https://petsof.netlify.com/images/:splat"
   status = 200
+
+[[redirects]]
+  from = "/cloudinaried/*"
+  to = "/images/:splat"
+  status = 404
