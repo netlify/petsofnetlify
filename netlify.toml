@@ -1,11 +1,6 @@
 [build]
   command = "npm run build"
   publish = "dist"
-
-#[[redirects]]
-#  from = "/cloudinaried/*"
-#  to = "https://res.cloudinary.com/philhawksworth/image/fetch/q_auto,f_auto,h_200/https://petsof.netlify.com/images/:splat"
-#  status = 200
   
 # Proxy all requests on this path to Cloudinary 
 # passing along the URL of the original image
