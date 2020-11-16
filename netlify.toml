@@ -11,13 +11,13 @@
 # passing along the URL of the original image
 [[redirects]]
   from = "/cloudinaried/*"
-  to = [
-      "https://res.cloudinary.com/",
-      "philhawksworth/",
-      "image/fetch/",
-      "q_auto,f_auto,h_200/",
-      "https://petsof.netlify.app/images/:splat"
-      ]
+  to = """\
+    https://res.cloudinary.com/\
+    philhawksworth/\
+    image/fetch/\
+    q_auto,f_auto,h_200/\
+    https://petsof.netlify.app/images/:splat\
+    """
   status = 200
 
 # Catch any 404s by serving the untransformed source image
