@@ -11,18 +11,11 @@ h2 {
   margin-top:0px;
 }
 
-img {
-  height:200px;
-  border-radius: 10px;
-  box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.2);
-  padding: 2px;
-  margin: 10px;
-}
 
 .pets {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .pet {
@@ -32,8 +25,20 @@ img {
     text-decoration: none;
 }
 
+.pet img {
+  height:200px;
+  border-radius: 10px;
+  box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.2);
+  padding: 2px;
+  margin: 10px;
+}
+
 .pet:target img {
     box-shadow: 1px 0px 20px 10px rgba(255,0,100,0.25);
+}
+
+footer {
+  margin: 2rem 0;
 }
 
 .netliheart {
