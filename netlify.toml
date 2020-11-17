@@ -2,12 +2,20 @@
   command = "npm run build"
   publish = "dist"
 
+# Proxy all requests on this path to Cloudinary
+# passing along the URL of the original image
 [[redirects]]
   from = "/cloudinaried/:height/:image"
-  to = "https://res.cloudinary.com/philhawksworth/image/fetch/q_auto,f_auto,h_:height/https://petsof.netlify.com/images/:image"
+  to = """\
+    https://res.cloudinary.com/\
+    philhawksworth/\
+    image/fetch/\
+    q_auto,f_auto,h_:height/\
+    https://petsof.netlify.app/images/:image\
+    """
   status = 200
 
-
+# Catch any 404s by serving the untransformed source image
 [[redirects]]
   from = "/cloudinaried/*"
   to = "/images/:splat"
