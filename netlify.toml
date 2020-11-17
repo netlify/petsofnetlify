@@ -3,9 +3,10 @@
   publish = "dist"
 
 [[redirects]]
-  from = "/cloudinaried/*"
-  to = "https://res.cloudinary.com/philhawksworth/image/fetch/q_auto,f_auto,h_200/https://petsof.netlify.com/images/:splat"
+  from = "/cloudinaried/:height/:image"
+  to = "https://res.cloudinary.com/philhawksworth/image/fetch/q_auto,f_auto,h_:height/https://petsof.netlify.com/images/:image"
   status = 200
+
 
 [[redirects]]
   from = "/cloudinaried/*"
