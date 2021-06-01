@@ -178,7 +178,7 @@
    {
     "name": "Piper",
     "photo": "piper-the-hyper-pupper.jpg"
-  }, 
+  },
   {
     "name": "Inji",
     "photo": "inji.jpg"
@@ -190,5 +190,9 @@
   {
     "name": "Butter Scotch",
     "photo": "butter_scotch-melvin.jpg"
+  },
+  {
+    "name": "Ruby (ruby-on-trails)",
+    "photo": "ruby-on-trails.jpeg"
   }
 ]
