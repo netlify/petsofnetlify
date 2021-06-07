@@ -9,6 +9,6 @@
 
 
 [[redirects]]
-  from = "/cloudinaried/*"
-  to = "/images/:splat"
+  from = "/cloudinaried/:height/:image"
+  to = "/images/:image"
   status = 404
