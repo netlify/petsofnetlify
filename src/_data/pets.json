@@ -178,7 +178,7 @@
    {
     "name": "Piper",
     "photo": "piper-the-hyper-pupper.jpg"
-  }, 
+  },
   {
     "name": "Inji",
     "photo": "inji.jpg"
@@ -194,5 +194,9 @@
   {
     "name": "Giorgio",
     "photo": "giorgio.jpeg"
+  },
+  {
+    "name": "Ruby (ruby-on-trails)",
+    "photo": "ruby-on-trails.jpeg"
   }
 ]
