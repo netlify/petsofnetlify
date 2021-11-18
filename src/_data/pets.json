@@ -214,5 +214,9 @@
   {
     "name": "Sherlock",
     "photo": "sherlock.jpg"
+  },
+  {
+    "name": "Melody",
+    "photo": "melody.jpg"
   }
 ]
