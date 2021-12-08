@@ -1,24 +1,24 @@
 {
-  "name": "petsofnetlify",
-  "version": "1.0.0",
-  "description": "This is a place where the Netlify team posts pictures of their pets.",
-  "dependencies": {
-    "@11ty/eleventy": "^0.11.1",
-    "clean-css": "^4.2.3"
-  },
-  "scripts": {
-    "start": "npx eleventy --serve",
-    "build": "npx eleventy"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/netlify/petsofnetlify.git"
-  },
-  "keywords": [],
-  "author": "Phil Hawksworth <phil@netlify.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/netlify/petsofnetlify/issues"
-  },
-  "homepage": "https://github.com/netlify/petsofnetlify#readme"
+    "name": "petsofnetlify",
+    "version": "1.0.0",
+    "description": "This is a place where the Netlify team posts pictures of their pets.",
+    "dependencies": {
+        "@11ty/eleventy": "^1.0.0-beta.8",
+        "clean-css": "^4.2.3"
+    },
+    "scripts": {
+        "start": "npx eleventy --serve",
+        "build": "npx eleventy"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/netlify/petsofnetlify.git"
+    },
+    "keywords": [],
+    "author": "Phil Hawksworth <phil@netlify.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/netlify/petsofnetlify/issues"
+    },
+    "homepage": "https://github.com/netlify/petsofnetlify#readme"
 }
