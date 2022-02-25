@@ -222,5 +222,9 @@
   {
     "name": "Chispa",
     "photo": "chispa.jpg"
+  },
+  {
+    "name": "Your pet's name",
+    "photo": "your-pets-photo.jpg"
   }
 ]
