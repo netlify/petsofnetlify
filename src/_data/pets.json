@@ -246,5 +246,9 @@
   {
     "name": "Winter",
     "photo": "winter.jpeg"
+  },
+  {
+    "name": "Ty",
+    "photo": "ty.png"
   }
 ]
