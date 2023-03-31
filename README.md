@@ -14,9 +14,9 @@ Well that won't do. If your little friend is missing from this site please submi
 
 ## Contributing code or pets (!)
 
-Please submit a [pull request](/brooklyn-data/pets-of-bdc/pulls).
+Please submit a [pull request](/pulls).
 
-To add your pet, you need to give us a photo of your lovely pet, and their name. Add the details to the [pets.json](/brooklyn-data/pets-of-bdc/blob/main/src/_data/pets.json) data file like this:
+To add your pet, you need to give us a photo of your lovely pet, and their name. Add the details to the [pets.json](blob/main/src/_data/pets.json) data file like this:
 
 ```json
   {
