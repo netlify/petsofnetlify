@@ -3,18 +3,23 @@ html {
 }
 
 body {
+  color: white;
   text-align: center;
   font-family:Roboto;
+  background-color: #29362F;
 }
 
 h1 {
-  color:#404040;
+  color: #E1EFF3;
 }
 
 h2 {
   margin-top:0px;
 }
 
+a { 
+  color: #93BD89;
+}
 
 .pets {
   display: flex;
@@ -32,14 +37,14 @@ h2 {
 .pet img {
   height:200px;
   border-radius: 10px;
-  box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.2);
+  box-shadow: 1px 0px 10px 0px rgba(0,0,0,0.75);
   padding: 2px;
   margin: 10px;
   align-self: center;
 }
 
 .pet:target img {
-    box-shadow: 1px 0px 20px 10px rgba(255,0,100,0.25);
+    box-shadow: 1px 0px 20px 10px rgba(147,189,137,0.8);
 }
 
 footer {
