@@ -1,10 +1,12 @@
 [
   {
     "name": "Example Dog",
-    "photo": "example_dog.jpg"
+    "photo": "example_dog.jpg",
+    "owner": "Adam"
   },
   {
     "name": "Example Cat",
-    "photo": "example_cat.jpg"
+    "photo": "example_cat.jpg",
+    "owner": "Adam"
   }
 ]

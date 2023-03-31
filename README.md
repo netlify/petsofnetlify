@@ -19,7 +19,8 @@ Please submit a pull request! To add your pet, you need to give us a photo of yo
 ```json
   {
     "name": "Your pet's name",
-    "photo": "your-pets-photo.jpg"
+    "photo": "your-pets-photo.jpg",
+    "owner": "your name"
   }
 ```
 

@@ -24,6 +24,7 @@
   {# Output some HTML for each pet found in _data/pets.json #}
   {% for pet in pets %}
     <a class="pet" href="#{{ pet.name | slug }}" id="{{ pet.name | slug }}">
+      <span class="pet owner">{{ pet.owner }}</span>
       <h2>{{ pet.name }}</h2>
       <img src="/images/{{ pet.photo }}" alt="{{ pet.name }}" loading="lazy">
     </a>
