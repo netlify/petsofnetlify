@@ -14,7 +14,7 @@ Well that won't do. If your little friend is missing from this site please submi
 
 ## Contributing code or pets (!)
 
-Please submit a pull request! To add your pet, you need to give us a photo of your lovely pet, and their name. Add the details to the [pets.json](pets.json) data file like this:
+Please submit a pull request! To add your pet, you need to give us a photo of your lovely pet, and their name. Add the details to the [pets.json](src/_data/pets.json) data file like this:
 
 ```json
   {
@@ -23,7 +23,7 @@ Please submit a pull request! To add your pet, you need to give us a photo of yo
   }
 ```
 
-Then add a nice photo to the [images folder](/brooklyn-data/pets-of-bdc/tree/main/src/images). It's best not to use a very large image file (no larger than 1600x1200) - holler if you need help resizing your image!
+Then add a nice photo to the [images folder](src/images). It's best not to use a very large image file (no larger than 1600x1200) - holler if you need help resizing your image!
 
 ## Running locally
 
