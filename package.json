@@ -1,7 +1,7 @@
 {
-    "name": "petsofnetlify",
+    "name": "pets-of-bdc",
     "version": "1.0.0",
-    "description": "This is a place where the Netlify team posts pictures of their pets.",
+    "description": "This is a place where the BDC team posts pictures of their pets.",
     "dependencies": {
         "@11ty/eleventy": "^1.0.0-beta.8",
         "clean-css": "^4.2.3"
@@ -12,13 +12,13 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/netlify/petsofnetlify.git"
+        "url": "git+https://github.com/brooklyn-data/pets-of-bdc.git"
     },
     "keywords": [],
-    "author": "Phil Hawksworth <phil@netlify.com>",
+    "author": "Adam Stone <adam.stone@brooklyndata.co>",
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/netlify/petsofnetlify/issues"
+        "url": "https://github.com/brooklyn-data/pets-of-bdc/issues"
     },
-    "homepage": "https://github.com/netlify/petsofnetlify#readme"
+    "homepage": "https://github.com/brooklyn-data/pets-of-bdc#readme"
 }

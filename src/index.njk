@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Pets of Netlify</title>
+  <title>Pets of Brooklyn Data Co.</title>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,500,700">
   {# Include the CSS and minify it with a filter #}
   {% set css %}
@@ -17,7 +17,7 @@
 
 <body>
   <header>
-    <h1>Pets of Netlify</h1>
+    <h1>Pets of Brooklyn Data Co.</h1>
     <p>Say hello to our little friends</p>
   </header>
   <main class="pets">
@@ -25,12 +25,12 @@
   {% for pet in pets %}
     <a class="pet" href="#{{ pet.name | slug }}" id="{{ pet.name | slug }}">
       <h2>{{ pet.name }}</h2>
-      <img src="/cloudinaried/300/{{ pet.photo }}" alt="{{ pet.name }}" loading="lazy">
+      <img src="/images/{{ pet.photo }}" alt="{{ pet.name }}" loading="lazy">
     </a>
   {% endfor %}
   </main>
   <footer>
-    Made with <img class="netliheart" title="love" src="/images/netliheart.svg" alt="love" width="1em"> by the <a href="https://netlify.com?utm_source=web&utm_medium=petsofnetlify-pnh&utm_campaign=devex">Netlify</a> team. Explore <a href="https://github.com/netlify/petsofnetlify">the code</a> in GitHub. Follow <a href="https://twitter.com/netlify">@Netlify</a> on Twitter for regular updates</a>.
+    Made with love by Brooklyn Data Co. (a Velir company). Forked from the <a href="https://github.com/netlify/petsofnetlify">original petsofnetlify</a> made by Netlify. Follow <a href="https://twitter.com/BrooklynData">@BrooklynData</a> for regular updates</a>.
   </footer>
 </body>
 </html>
