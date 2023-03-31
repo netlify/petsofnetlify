@@ -2,7 +2,7 @@
 
 This is a place where the BDC team posts pictures of their pets.
 
-Want to meet our friends? Head to [TBD](http://www.google.com)
+Want to meet our friends? Head to [petsofbdc.netlify.app](https://petsofbdc.netlify.app/)
 
 ## A little note about this website
 
