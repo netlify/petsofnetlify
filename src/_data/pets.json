@@ -13,5 +13,10 @@
     "name": "Melon",
     "photo": "melon.jpg",
     "owner": "Laura"
+  },
+  {
+    "name": "Sasha",
+    "photo": "sasha.jpg",
+    "owner": "Zara"
   }
 ]
