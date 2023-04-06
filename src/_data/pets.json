@@ -1,15 +1,5 @@
 [
   {
-    "name": "Example Dog",
-    "photo": "example_dog.jpg",
-    "owner": "Adam"
-  },
-  {
-    "name": "Example Cat",
-    "photo": "example_cat.jpg",
-    "owner": "Adam"
-  },
-  {
     "name": "Melon",
     "photo": "melon.jpg",
     "owner": "Laura"
@@ -18,5 +8,10 @@
     "name": "Sasha",
     "photo": "sasha.jpg",
     "owner": "Zara"
+  },
+  {
+    "name": "Oz",
+    "photo": "oz.jpg",
+    "owner": "Rachel"
   }
 ]
