@@ -18,5 +18,10 @@
     "name": "Binx",
     "photo": "binx.jpg",
     "owner": "Rachel"
+  },
+  {
+    "name": "Nori",
+    "photo": "nori.jpg",
+    "owner": "Dan"
   }
 ]
