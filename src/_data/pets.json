@@ -10,7 +10,7 @@
     "owner": "Zara"
   },
   {
-    "name": "Oz",
+    "name": "Oz",g
     "photo": "oz.jpg",
     "owner": "Rachel"
   },
@@ -23,5 +23,15 @@
     "name": "Nori",
     "photo": "nori.jpg",
     "owner": "Dan"
+  },
+  {
+    "name": "Charlie",
+    "photo": "charlie.jpg",
+    "owner": "Ethan"
+  },
+  {
+    "name": "Mabel",
+    "photo": "mabel.jpg",
+    "owner": "Ethan"
   }
 ]
