@@ -3,7 +3,7 @@
     "version": "1.0.0",
     "description": "This is a place where the Netlify team posts pictures of their pets.",
     "dependencies": {
-        "@11ty/eleventy": "^1.0.0-beta.8",
+        "@11ty/eleventy": "^2.0.1",
         "clean-css": "^4.2.3"
     },
     "scripts": {
