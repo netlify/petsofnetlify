@@ -167,7 +167,7 @@
     "name": "Leon",
     "photo": "leon.jpg"
   },
-   {
+  {
     "name": "Piper",
     "photo": "piper-the-hyper-pupper.jpg"
   },
@@ -258,5 +258,17 @@
   {
     "name": "Espina & Peach",
     "photo": "espina-and-peach.jpg"
+  },
+  {
+    "name": "Henley",
+    "photo": "henley_rcm.png"
+  },
+  {
+    "name": "Kylo",
+    "photo": "kylo_rcm.png"
+  },
+  {
+    "name": "Sadie",
+    "photo": "sadie_rcm.png"
   }
 ]
